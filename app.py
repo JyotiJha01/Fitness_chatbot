@@ -51,6 +51,8 @@ if st.button("Generate Workout Plan"):
     workout_plan = generate_workout_plan(body_type, fitness_goals, dietary_restrictions)
     st.subheader("Your Personalized Workout Plan:")
     st.write(workout_plan)
+    st.session_state["chat_history"].append(("Bot", workout_plan))
+
 
 # Collect user inputs for chatbot
 input_text = st.text_input("Input: ", key="input")
