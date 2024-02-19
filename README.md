@@ -2,6 +2,7 @@
 
 This is a Fitness Chatbot built using Streamlit and Google's Gemini Pro model. The chatbot assists users in generating personalized workout plans based on their body type, fitness goals, and any dietary restrictions they may have.
 
+
 ## Features:
 **Personalized Workout Plans**: Users can select their body type (Slim, Average, Stocky), describe their fitness goals, and optionally specify any dietary restrictions. The chatbot then generates a personalized workout plan tailored to the user's inputs.
 
@@ -49,6 +50,8 @@ To run the Fitness Chatbot locally, follow these steps:
 6. Run the Streamlit app:
 
     *streamlit run app.py*
+
+[Watch the Video](https://youtu.be/-ghTEN_cV0g?si=JX3Niz9oBncyIPHg)
 
 
 ## Deployment:
