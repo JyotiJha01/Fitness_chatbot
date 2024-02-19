@@ -11,7 +11,7 @@ import google.generativeai as gai
 
 # Define function to generate workout plan based on user inputs
 def generate_workout_plan(body_type, fitness_goals, dietary_restrictions):
-    # This is a placeholder function, you should replace it with your actual logic
+    # This is a placeholder function that generates a generic workout plan
     workout_plan = f"Your personalized workout plan:\n\nBody Type: {body_type}\nFitness Goals: {fitness_goals}\nDietary Restrictions: {dietary_restrictions}\n\nDay 1: Chest and Triceps\nDay 2: Back and Biceps\nDay 3: Rest\nDay 4: Legs\nDay 5: Shoulders and Abs\nDay 6: Rest\nDay 7: Rest"
     return workout_plan
 
